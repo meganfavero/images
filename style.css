@@ -1,0 +1,100 @@
+/* IMAGES */
+
+html {
+	background-color: white;
+}
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0em;
+	padding: 0.5em;
+	color: white;
+	background-color: slateblue;
+	min-height: 1200vh;
+	line-height: 1.2;
+	background-image: url(img/pears_02.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center;
+	position: relative;
+	height: 50vh;
+	width: 100%;
+}
+header {
+	padding: 0.5em;
+	padding-bottom: 0;
+}
+
+header img {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: calc(25% - 1em);
+}
+
+h1 {
+	position: fixed;
+    top: 1.3em;
+    left:-0.9em;
+    text-align: center;
+    font-size: 10em;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    transform: rotate(270deg);
+		z-index: 1;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+figure{
+	position: absolute;
+}
+
+.pears_02{
+
+}
+.pears_03{
+}
+.pears_04 {
+}
+.pears_05 {
+}
+.pears_06{
+	opacity: 1;
+	filter: grayscale(50%);
+	position:static;
+	margin-top: -0.3em;
+}
+.single:hover{
+	filter: blur(4px);
+}
+main {
+display:flex;
+flex-wrap: wrap;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+.grid div {
+	width: 25%;
+}
